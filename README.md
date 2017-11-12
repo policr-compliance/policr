@@ -4,14 +4,6 @@ Policr is a continuous compliance tool for Cloud Infrastructure. This tool helps
 [![Build Status](https://travis-ci.org/LoooooKe/policr.svg?branch=develop)](https://travis-ci.org/LoooooKe/policr)
 [![codecov](https://codecov.io/gh/LoooooKe/policr/branch/develop/graph/badge.svg)](https://codecov.io/gh/LoooooKe/policr)
 
-## Basic concept
-![Policr workflow](/docs/images/ccc-workflow.png)
-
-## Build
-    git checkout -b develop origin/develop
-
-    grunt build
-
 ## Usage
 ### tf-plan
 To check terraform scripts locally without deploying it to the provider, use the *plan* mode.
