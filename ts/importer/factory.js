@@ -1,7 +1,7 @@
 const TerraformImporter = require('./tf/tfImporter.js');
 const AWSImporter = require('./aws/awsImporter.js');
 
-function create(type, options, args) {
+function create(type, options, ...args) {
     switch(type) {
         case 'tf-plan':
             return new TerraformImporter('plan', options, args);

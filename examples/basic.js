@@ -1,7 +1,7 @@
 const chai = global.chai;
 const expect = chai.expect;
 
-var resourceMap = global.resourceMap;
+var resourceMap = global.resourceMap
 
 describe('aws_iam_user tests', function() {
     var users = resourceMap.all['aws_iam_user'];
