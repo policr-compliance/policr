@@ -3,7 +3,5 @@ import { DnsCheck } from './policr.classes.dnscheck';
 import { WebsiteCheck } from './policr.classes.websitecheck';
 
 export class Policr {
-  createDnsCheck () {
-
-  }
+  createDnsCheck() {}
 }
