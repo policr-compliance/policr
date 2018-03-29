@@ -1,9 +1,8 @@
-import { tap, expect } from 'tapbundle'
-
-import * as myModule from '../ts/index'
+import { expect, tap } from 'tapbundle'
+import * as policr from '../ts/index'
 
 tap.test('first test', async () => {
-  myModule
+  console.log(policr.standardExport)
 })
 
 tap.start()

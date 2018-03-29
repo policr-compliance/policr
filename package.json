@@ -1,50 +1,18 @@
 {
   "name": "policr",
-  "version": "0.0.1",
-  "description": "Cli tool for testing and provisioning with terraform as provisioner",
+  "version": "1.0.1",
+  "description": "compliance checks done right",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "directories": {
-    "lib": "lib",
-    "example": "example",
-    "test": "test",
-    "doc": "doc"
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "scripts": {
+    "test": "(npmts)",
+    "format": "(gitzone format)"
+  },
+   "devDependencies": {
+    "tapbundle": "^1.0.13"
   },
   "dependencies": {
-    "aws-config": "1.1.3",
-    "aws-sdk": "2.145.0",
-    "aws-sdk-mock": "1.7.0",
-    "chai": "4.1.2",
-    "chai-fs": "^1.0.0",
-    "chai-string": "1.4.0",
-    "child_process": "1.0.2",
-    "cli": "1.0.1",
-    "jsonpath-plus": "0.16.0",
-    "lodash": "4.17.4",
-    "nyc": "11.3.0",
-    "traverse": "0.6.6"
-  },
-  "devDependencies": {
-    "aws-sdk-mock": "1.7.0",
-    "debug": "3.1.0",
-    "mock-cli": "0.1.2",
-    "mock-fs": "4.4.2",
-    "mock-spawn": "0.2.6",
-    "pkg": "4.2.5",
-    "tapbundle": "^1.1.8"
-  },
-  "scripts": {
-    "test": "npmts"
-  },
-  "keywords": [
-    "terraform",
-    "test",
-    "testing",
-    "continuous",
-    "compliance",
-    "cc"
-  ],
-  "author": "Lossless GmbH",
-  "license": "Apache-2.0",
-  "engines": {}
+  }
 }
